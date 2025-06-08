@@ -1,0 +1,12 @@
+Python Password GeneratorA simple, command-line based, and customizable password generator script written in Python.DescriptionThis script allows users to generate strong, random passwords directly from their terminal. It offers several customization options, including password length and the types of characters to include (lowercase, uppercase, digits, and special characters). The script ensures that if a character set is selected, at least one character from that set will be included in the final password, enhancing security.FeaturesCustomizable Length: Specify the exact length of the generated password.Character Set Control: Choose whether to include:Lowercase letters (a-z)Uppercase letters (A-Z)Digits (0-9)Special characters (!@#$%^&*())Guaranteed Complexity: If a character type is enabled, the script guarantees at least one character of that type will be in the password.Interactive CLI: Easy-to-use command-line interface for generating passwords on the fly.No External Dependencies: Runs using only Python's standard libraries.RequirementsPython 3.xHow to UseSave the code as a Python file (e.g., password_generator.py).Open your terminal or command prompt.Navigate to the directory where you saved the file.Run the script using the following command:python password_generator.py
+Follow the on-screen prompts to customize your password.Example SessionSimple Password Generator
+-------------------------
+Enter password length (default 12): 16
+Include lowercase letters? (y/n, default y): y
+Include uppercase letters? (y/n, default y): y
+Include digits? (y/n, default y): y
+Include special characters? (y/n, default y): n
+
+Generated Password: gwFvL5U9pC3dEaK1
+Password length: 16
+Function: generate_password()The core of the script is the generate_password() function, which can also be imported into other Python projects.ParametersParameterTypeDefaultDescriptionlengthint12The total length of the password to be generated.use_lowercaseboolTrueIf True, includes lowercase letters (a-z).use_uppercaseboolTrueIf True, includes uppercase letters (A-Z).use_digitsboolTrueIf True, includes digits (0-9).use_specialboolTrueIf True, includes special characters.special_charsstr'!@#$%^&*()'A string containing the special characters to use.Returnsstr: A randomly generated password string that meets the specified criteria.RaisesValueError: If no character types are selected or if the length is less than the number of required character types.
