@@ -57,8 +57,8 @@ No installation is required. Simply download the `password_generator.py` script 
 
 1.  Clone the repository or download the script:
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone [https://github.com/jaikumar-kpv/Password-Generator.git]([https://github.com/your-username/your-repo-name](https://github.com/jaikumar-kpv/Password-Generator).git)
+    cd Password-Generator
     ```
     Or simply save the Python code into a file named `password_generator.py`.
 
