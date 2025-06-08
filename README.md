@@ -1,7 +1,6 @@
 # Python Password Generator
 
 ![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 A versatile and secure command-line password generator written in Python. This script allows for the creation of strong, randomized passwords tailored to specific security requirements.
 
@@ -57,7 +56,7 @@ No installation is required. Simply download the `password_generator.py` script 
 
 1.  Clone the repository or download the script:
     ```bash
-    git clone [https://github.com/jaikumar-kpv/Password-Generator.git]([https://github.com/your-username/your-repo-name](https://github.com/jaikumar-kpv/Password-Generator).git)
+    git clone https://github.com/jaikumar-kpv/Password-Generator.git
     cd Password-Generator
     ```
     Or simply save the Python code into a file named `password_generator.py`.
